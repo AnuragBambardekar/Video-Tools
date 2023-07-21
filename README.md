@@ -18,6 +18,10 @@ To run this script, you need to have the following library/tool installed:
 
 FFmpeg: FFmpeg is a command-line tool used for handling multimedia data, including video and audio. It includes various codecs, filters, and formats, making it an excellent choice for processing multimedia files.
 
+```python
+pip install ffmpeg-python
+```
+
 ### Before running, you may edit the following parameters
 
 input_file: Replace "cmatrix.gif" with the path to your input GIF file that you want to compress.
