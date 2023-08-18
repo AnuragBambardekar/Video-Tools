@@ -31,3 +31,9 @@ output_file: Replace "cmatrix-comp.gif" with the desired output file path for th
 resize_scale: Adjust this value to resize the GIF. For example, a value of 0.5 will reduce the size by half, while 2.0 will double the size. If you don't want to resize the GIF, set it to 1.0.
 
 crf: The Constant Rate Factor (CRF) is a quality-based value for video compression. Lower values result in higher quality but larger file sizes. Adjust this value based on your preference (default is 30).
+
+# Merge Videos
+
+Using the MoviePy library to perform video editing operations on a series of video clips and audio, ultimately creating a new video with combined effects and edited audio. 
+
+Make sure before running the script, the resolutions of the different clips match.
