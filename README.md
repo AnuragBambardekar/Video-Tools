@@ -47,3 +47,7 @@ The script utilizes OpenCV to extract the original width and height of a video, 
 The code generates an animation of a sine wave that varies in frequency over a duration of 20 seconds. Using Matplotlib and MoviePy libraries, the code plots the sine wave's progression over time, where the frequency of the wave increases linearly. The wave's amplitude remains constant, and the animation is saved as a video file named "sine_wave_animation.mp4". The animation showcases the changing frequency of the sine wave over the specified duration, and the resulting video file is saved for future reference.
 
 Similarly, we can export it as a GIF.
+
+# Split Screen Videos
+
+The code utilizes the MoviePy library to create a video montage. Four different video clips, each representing a unique visual element, are loaded from specified file paths and trimmed to a common duration of 5 seconds. A margin is added around each clip to create spacing. These trimmed and margin-added clips are then arranged in a 2x2 grid layout using the clips_array function. The resulting arrangement is a side-by-side combination of the four clips, forming a larger video montage. This combined montage is saved as a video file named "sideByside.mp4" in the specified directory. The code essentially creates a multi-panel video presentation by assembling the individual clips into a grid pattern within a single video file.
