@@ -41,3 +41,9 @@ Make sure before running the script, the resolutions of the different clips matc
 # Resize Videos
 
 The script utilizes OpenCV to extract the original width and height of a video, then uses FFmpeg through subprocess to resize the video to a new resolution while maintaining the original audio. The resulting resized video is saved at the specified output path.
+
+# Generating videos of matplotlib plots
+
+The code generates an animation of a sine wave that varies in frequency over a duration of 20 seconds. Using Matplotlib and MoviePy libraries, the code plots the sine wave's progression over time, where the frequency of the wave increases linearly. The wave's amplitude remains constant, and the animation is saved as a video file named "sine_wave_animation.mp4". The animation showcases the changing frequency of the sine wave over the specified duration, and the resulting video file is saved for future reference.
+
+Similarly, we can export it as a GIF.
