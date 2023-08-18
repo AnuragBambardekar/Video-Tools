@@ -37,3 +37,7 @@ crf: The Constant Rate Factor (CRF) is a quality-based value for video compressi
 Using the MoviePy library to perform video editing operations on a series of video clips and audio, ultimately creating a new video with combined effects and edited audio. 
 
 Make sure before running the script, the resolutions of the different clips match.
+
+# Resize Videos
+
+The script utilizes OpenCV to extract the original width and height of a video, then uses FFmpeg through subprocess to resize the video to a new resolution while maintaining the original audio. The resulting resized video is saved at the specified output path.
