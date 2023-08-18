@@ -11,7 +11,7 @@ cap = cv2.VideoCapture(input_video_path)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-print(f"Input Video Resolution: {width},{height}",)
+print(f"Input Video Resolution: {width},{height}")
 
 new_width = 1280
 new_height = 720
